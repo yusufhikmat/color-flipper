@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    line-height: 2rem;
+}
+body{
+    background-color: #f1f5f8;
+    
+}
+nav{
+    background-color: black;
+    display:flex;
+    justify-content: space-between;
+    padding:1rem 5rem;
+    color:turquoise;
+    
+}
+
+.nav-logo{
+    display:inline;
+    font-size: 1.7rem;
+    
+}
+ul li{
+    list-style-type: none;
+    display:inline-block;
+    padding:0rem 5rem;
+}
+li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 26px;
+    color:turquoise;
+    
+}
+li a:hover{
+    color:bisque;
+}
+.container{
+    text-align: center;
+    justify-items: center;
+    margin-top: 20%;
+}
+
+.background-el{
+    display:inline-block;
+    background-color: black;
+    color:turquoise;
+    font-size: 50px;
+    padding: 30px 20px;
+}
+.btn-click{
+    padding:10px 20px;
+    font-size: 16px;
+    margin:10px 0px;
+}
+
