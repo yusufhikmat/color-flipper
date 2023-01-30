@@ -12,6 +12,7 @@ btnClick.addEventListener('click', function(){
     color.textContent = colors[randomNumber]
     backgroundEl.style.color= colors[randomNumber]
 })
+console.log(randomNumber)
 
 function getRandomNumber(){
     let randomColor = Math.floor(Math.random() * colors.length)
